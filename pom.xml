@@ -12,7 +12,7 @@
   <url>http://www.example.com</url>
 
   <properties>
-    <sonar.host.url>http://52.23.228.192:9000/</sonar.host.url>
+    <sonar.host.url>http://54.160.156.185:9000/</sonar.host.url>
     <sonar.login>squ_66ae2e8c40cebb7cbd27d7cf4d47959986765644</sonar.login>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <maven.compiler.release>17</maven.compiler.release>
