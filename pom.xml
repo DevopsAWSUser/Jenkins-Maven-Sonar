@@ -43,7 +43,18 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
-
+  <distributionManagement>
+    <repository>
+      <id>nexus</id>
+      <name>Release Repos</name>
+      <url>http://98.81.241.55:8081/repository/first-release/</url>
+    </repository>  
+    <snapshotRepository>
+      <id>nexus</id>
+      <name>Snapshot Repos</name>
+      <url>http://98.81.241.55:8081/repository/first-snapshot/</url>
+    </snapshotRepository>
+  </distributionManagement>
   <build>
     <pluginManagement><!-- lock down plugins versions to avoid using Maven defaults (may be moved to parent pom) -->
       <plugins>
